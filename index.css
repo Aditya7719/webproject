@@ -1,26 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script&family=Exo+2:ital,wght@1,500&family=Gloria+Hallelujah&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script&family=Exo+2:ital,wght@1,500&family=Gloria+Hallelujah&family=Silkscreen&family=Water+Brush&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container{
-    background-color: rgb(86, 86, 227);
-    width: 100%;
-    height: 60px;
-}
-.sections{
+#header{
     display: flex;
+     justify-content:space-between;
     align-items: center;
-    padding: 20px 0;
-}
-.navigation{
-    display: flex;
-}
-.info{
-    display: flex;
+    font-size: 18px;
+    padding: 20px 30px;
+    left: 10px;
+    box-shadow: 0 5px 15px rgb(233, 227, 227);
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+    
 
 }
-li{
-    margin: 10px;
+.section-p1{
+    padding: 40px 80px;
+}
+#navbar{
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+#navbar li{
+
+list-style:none;
+padding: 0 20px;
+
+}
+#navbar li a{
+    margin: 3px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-family: Arial  black;
+    transition: 0.3 ease;
+    color: rgb(0, 0, 0);
+
+}
+#navbar li a:hover
+
+{
+    align-items: center;
+    color: rgb(96, 98, 102);
+}
+#hero{
+    background-image: url(back.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    padding: 20PX 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   /* justify-content: center; */
+}
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Exo 2', sans-serif;
+    animation: fadeInDown 1s ease;
+    font-size: 80px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 10PX 5PX black;
+    opacity: 1;
+
+}
+
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.offers{
+    padding: 0 80px;
+    margin:  10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.offers h4{
+    font-family: Arial black;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+P{
+    text-decoration: underline;
+}
+#features .fe-box h6{
+    width: 180px;
+    text-align: left;
+    padding: 17px 4px;
+    font-family: Arial black
+    ;
+}
+ #features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+}
+#feature .fe-box:nth-child(3) h6{
+    text-align: right;
+} 
+
+#deals{
+    text-align: center;
+}
+#deals .pro{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid black;
+}
+#deals .pro img{
+    width: 100%;
 }
