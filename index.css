@@ -479,3 +479,33 @@ P {
     float: left;
     justify-content: space-between;
 }
+#testimonials h2{
+    text-align: center;
+    
+}
+#ip{
+    display: flex
+   
+    align-content: center;
+ }
+#testimonials .imge{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: none;
+    /* box-shadow: 0 0 1px 0 black; */
+    border-radius: 10PX;
+    align-items: center;
+    margin-left: 100px;
+    height: 500px;
+   
+}
+#testimonials .imge img{
+    height: 320px;
+    width: 100%;
+   
+}
+ .para p{
+    margin-left: 5px;
+    margin-right: 10px;
+}
