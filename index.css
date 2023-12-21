@@ -94,23 +94,28 @@
         transform: translateY(0);
     }
 }
-
 .offers {
+    font-family: cursive;
+    margin-left: 10%;
+    font-size: 500px;
+}
+
+/* .offers {
     padding: 0 80px;
     margin: 10px 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
+/* } */
 
 .offers h4 {
     font-family: Arial black;
     font-style: italic;
     font-size: 30px;
     color: white;
-}
+} 
 
 P {
     text-decoration: underline;
@@ -146,6 +151,7 @@ P {
     padding: 10px 12px;
     border: none;
     box-shadow: 0 0 1px 0 black;
+    border-radius: 10PX;
 }
 
 #deals .pro img {
@@ -373,7 +379,7 @@ P {
     height: 100vh;
     width: 100%;
     background-color: aliceblue;
-    position: absolute;
+    position: relative;
     margin-top: 70vh;
 }
 
@@ -427,12 +433,13 @@ P {
     background-color: #53565A;
 }
 .in_focus .in_focus_box #cart{
-    margin-top: 50px;
+    margin-top: 20px;
     height: 7vh;
     width: 70%;
     background-color: orange;
     margin-left: 15%;
     border: none;
+    border-radius: 5px;
     
 }
 .in_focus .in_focus_box #buy{
@@ -442,12 +449,13 @@ P {
     background-color: black;
     color: white;
     border: none;
+    border-radius: 5px;
     margin-left: 15%;
 }
 
 .footcontent{
     background-image: linear-gradient(298deg, rgba(174,197,238,1) 0%, rgba(12,52,115,1)100%);
-    height: 50vh;
+    height: 300px;
     width: 100%;
     background-position: center;
     background-size:cover;
